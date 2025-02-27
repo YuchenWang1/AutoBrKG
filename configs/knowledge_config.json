@@ -1,0 +1,25 @@
+[
+  {
+    "knowledge_id": "bridge_rag",
+    "emb_model_config_name": "zhipuai_emb_config",
+    "chunk_size": 1024,
+    "chunk_overlap": 40,
+    "data_processing": [
+      {
+        "load_data": {
+          "loader": {
+            "create_object": true,
+            "module": "llama_index.core",
+            "class": "SimpleDirectoryReader",
+            "init_args": {
+              "input_dir": "knowledge",
+              "required_exts": [
+                ".pdf"
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+      "model_type": "zhipuai_chat",
+      "config_name": "zhipuai_config",
+      "model_name": "glm-4-plus",
+      "api_key": "a63b5bf55842a9433f982864c92638f0.XZch2KW6Wu2x03rg"
+  },
+  {
+    "model_type": "zhipuai_embedding",
+    "config_name": "zhipuai_emb_config",
+    "model_name": "embedding-3",
+    "api_key": "a63b5bf55842a9433f982864c92638f0.XZch2KW6Wu2x03rg"
+  }
+
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "class": "LlamaIndexAgent",
+    "args": {
+      "name": "bridge-expert",
+      "description": "bridge-expert是一个可以根据中文材料（主要是标记文件）提供答案的代理。它可以回答有关桥梁的一般问题。",
+      "sys_prompt": " 您是桥梁领域专家。您根据提供的上下文，保证提取结果的实体符合桥梁领域知识答案。",
+      "model_config_name": "zhipuai_config",
+      "knowledge_id_list": ["bridge_rag"],
+      "similarity_top_k": 5,
+      "log_retrieval": false,
+      "recent_n_mem_for_retrieve": 1
+    }
+  }
+]
