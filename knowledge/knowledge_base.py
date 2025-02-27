@@ -19,7 +19,7 @@ def save_json(data, file_path):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 def get_embedding(text):
-    client = ZhipuAI(api_key="f71452d526ec0b57afc6eaa84d145da4.1O44hThevhJg2jiL")
+    client = ZhipuAI(api_key="your_API_key")
     # Request the embedding for the provided text using the specified model
     response = client.embeddings.create(
         model="embedding-3",  # Specify the model to use for embedding
