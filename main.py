@@ -28,14 +28,14 @@ configs = {
     "config_name": "zhipuai",
     "model_type": "zhipuai_chat",
     "model_name": "glm-4-flash",
-    "api_key": "f71452d526ec0b57afc6eaa84d145da4.1O44hThevhJg2jiL"
+    "api_key": "your_API_key"
 }
 
 configs_emb ={
     "config_name": "zhipuai_emb_config",
     "model_type": "zhipuai_embedding",
     "model_name": "embedding-3",
-    "api_key": "f71452d526ec0b57afc6eaa84d145da4.1O44hThevhJg2jiL"
+    "api_key": "your_API_key"
   }
 
 # Initialize AgentScope with the model configurations
