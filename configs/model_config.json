@@ -4,7 +4,7 @@
     "model_type": "chat",
     "provider": "deepseek",
     "model_name": "deepseek-chat",
-    "api_key": "sk-2199a59a9f4d43a7a0d8a5282dcc743e",
+    "api_key": "your-api-key",
     "base_url": "https://api.deepseek.com/v1"
     },
     {
@@ -12,20 +12,20 @@
     "model_type": "zhipuai_chat",
     "provider": "zhipuai",
     "model_name": "glm-4-flash",
-    "api_key": "f71452d526ec0b57afc6eaa84d145da4.1O44hThevhJg2jiL"
+    "api_key": "your-api-key"
     },
     {
     "config_name": "zhipuai_emb_config",
     "provider": "zhipuai",
     "model_type": "zhipuai_embedding",
     "model_name": "embedding-3",
-    "api_key": "f71452d526ec0b57afc6eaa84d145da4.1O44hThevhJg2jiL"
+    "api_key": "your-api-key"
     },
     {
     "config_name": "neo4j_config",
     "provider": "neo4j",
-    "uri": "neo4j+s://f8c7e772.databases.neo4j.io",
+    "uri": "your-url",
     "username": "neo4j",
-    "password": "Xh9hjTNyBOMfUUs3glBJI-ntnzd7VWaZExrzztaqh90"
+    "password": "your-key"
     }
 ]
